@@ -33,7 +33,7 @@
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<configuration>
-					<port>5050</port>
+					<port>5051</port>
 					<path>/</path>
 				</configuration>
 			</plugin>
