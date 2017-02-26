@@ -1,0 +1,11 @@
+1488069035126	Extract local variable 'createConnection'
+1488069215588	Extract local variable 'destination'
+1488069333138	Extract local variable 'messageProducer'
+1488071486887	Copy compilation unit
+1488072166942	Copy compilation unit
+1488072234495	Copy compilation unit
+1488072238818	Copy compilation unit
+1488072280011	Rename type 'JMSConsumerListener'
+1488072375056	Copy compilation unit
+1488072381536	Rename type 'Listener'
+1488072389174	Copy compilation unit

@@ -1,0 +1,15 @@
+package com.dynamic.activemq;
+
+import javax.jms.MessageListener;
+
+
+/**
+ * 监听器
+ * @author fxq
+ *
+ */
+public class Listener implements MessageListener {//实现消息监听
+
+	
+	
+}

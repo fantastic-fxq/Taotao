@@ -1,0 +1,29 @@
+package com.taotao.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotat
+n.Autowired;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereoimport com.taotao.mapper.TbItemCatMapper;
+type.Service;
+
+
+
+import org.springframework.stereotype.Service;
+
+import com.taotao.common.pojo.EasyUITreeNode;
+import com.taotao.mapper.TbItemCatMapper;
+import com.taotao.service.ItemCatService;
+
+@Service
+public class ItemCatServiceImpl implements ItemCatService {
+@Autowired
+private TbItemCatMapper itemCatMapper;
+	
+	@Override
+	public List<EasyUITreeNode> getItemCatList(long parentId) {
+		return null;
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.taotao.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * 商品查询Controller
+ * @author fxq
+ *
+ */
+@Controller
+public class ItemController {
+
+	
+}

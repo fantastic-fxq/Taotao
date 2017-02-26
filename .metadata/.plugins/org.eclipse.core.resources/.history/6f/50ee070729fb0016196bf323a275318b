@@ -1,0 +1,13 @@
+package com.taotao.service;
+
+import com.taotao.common.pojo.TaotaoResult;
+
+/**
+ * 商品规格参数
+ * @author fxq
+ *
+ */
+public interface ItemParamService {
+
+	TaotaoResult getItemParamByCid(String cid);
+}

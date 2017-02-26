@@ -1,0 +1,12 @@
+package com.taotao.common.utils;
+
+/**
+ * 分布式文件系统操作类
+ * @author fxq
+ *
+ */
+public class FastDFSClient {
+
+
+	
+}

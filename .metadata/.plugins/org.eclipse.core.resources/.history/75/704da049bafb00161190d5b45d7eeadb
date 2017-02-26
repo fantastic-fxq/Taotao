@@ -1,0 +1,23 @@
+package com.dynamic.activemq;
+
+import javax.jms.Connection;
+import javax.jms.ConnectionFactory;
+import javax.jms.Destination;
+import javax.jms.MessageProducer;
+import javax.jms.Session;
+
+/**
+ * 消息生产者;
+ * @author fxq
+ *
+ */
+public class JMSProducer {
+  public static void main(String[] args) {
+	
+	  ConnectionFactory connectionFactory;//连接工厂;
+	  Connection connection;//连接
+	  Session session;//会话接受或者发送消息的线程;
+	  Destination destination;//消息的目的地;
+	  MessageProducer messageProducer;//消息生产者;
+}
+}

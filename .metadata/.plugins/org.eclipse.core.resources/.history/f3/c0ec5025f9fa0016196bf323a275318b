@@ -1,0 +1,39 @@
+package com.taotao.common.pojo;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+/**
+ * 淘淘商城自定义响应结构
+ * 
+ * @author fxq
+ *
+ */
+public class TaotaoResult {
+	// ObjectMapper类是Jackson库的主要类。它提供一些功能将转换成Java对象匹配JSON结构，反之亦然。
+	//它使用JsonParser和JsonGenerator的实例实现JSON实际的读/写。
+	private static final ObjectMapper MAPPER = new ObjectMapper();
+	
+	//响应业务状态
+	private Integer status;
+	
+	//响应信息
+	private String msg;
+	//响应中的数据
+	private Object data;
+	
+	//空的构造函数;
+	public TaotaoResult()
+	{		
+	}
+	public static TaotaoResult build(Integer status,String msg,Object data)
+	{
+		return new TaotaoResult(status,msg,data) ;
+	}
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,10 @@
+package com.taotao.pagehelper;
+
+import org.junit.Test;
+
+public class TestPageHelper {
+	@Test
+	public void testPageHelper() {
+
+	}
+}

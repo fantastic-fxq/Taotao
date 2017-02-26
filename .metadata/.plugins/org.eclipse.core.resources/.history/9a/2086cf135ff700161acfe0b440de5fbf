@@ -1,0 +1,17 @@
+package com.taotao.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * 页面跳转Controller
+ * @author fxq
+ *
+ */
+public class PageController {
+
+	@RequestMapping("/")
+	public String showIndex()
+	{
+		return "index";
+	}
+}

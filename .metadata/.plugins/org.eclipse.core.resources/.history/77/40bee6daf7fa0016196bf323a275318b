@@ -1,0 +1,10 @@
+package com.taotao.common.pojo;
+
+/**
+ * 淘淘商城自定义响应结构
+ * @author fxq
+ *
+ */
+public class TaotaoResult {
+
+}
